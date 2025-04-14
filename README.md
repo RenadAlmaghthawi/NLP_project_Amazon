@@ -44,12 +44,12 @@ First, clone the repository to your local machine using Git:
 ```bash
 git clone <repository_url>
 cd <repository_directory>
-
+```
 ### Step 2: Install Dependencies
 Install the required dependencies listed in requirements.txt:
 ```bash
 pip install -r requirements.txt
-
+```
 ### Step 3: Download the Pre-trained Models
 The pre-trained models are hosted on Google Drive. Download them using the following links:
 - [best_sentiment_Model](https://drive.google.com/drive/folders/1_xZSgu_vHhaew1vGXSbx0iCJVFwX_hc1?usp=drive_link) 
@@ -61,5 +61,5 @@ Once downloaded, place them in the project directory.
 Run the Streamlit application using the following command:
 ```bash
 streamlit run app.py
-
+```
 This will open a web interface where you can upload data and interact with the classification, clustering, and recommendation results.
