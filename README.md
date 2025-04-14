@@ -6,7 +6,7 @@ This project automates the analysis of customer reviews using advanced Natural L
 
 1. **Review Classification**: Classifying reviews into predefined categories using a `DistilBERT` model. 
 2. **Product Category Clustering**: Grouping product categories into broader categories using the `K-means` algorithm and `DistilBERT` embeddings to extract key features. 
-3. **Recommendation Summaries Generation**: Generating recommendation summaries based on sentiment analysis of reviews, highlighting both positive and negative aspects. 
+3. **Recommendation Summaries Generation**: Generating recommendation summaries by `gpt-3.5-turbo` based on sentiment analysis of reviews, highlighting both positive and negative aspects. 
 
 ## File Descriptions 📂
 
